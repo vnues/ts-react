@@ -15,6 +15,7 @@
         "@hot-loader/react-dom": "^16.8.3",
         "@types/react": "^16.8.13",
         "@types/react-dom": "^16.8.4",
+        "commitizen": "^3.0.7",
         "awesome-typescript-loader": "^5.2.1",
         "cache-loader": "^2.0.1",
         "css-loader": "^1.0.0",
@@ -53,13 +54,13 @@
     },
     "config": {
         "commitizen": {
-          "path": "node_modules/cz-conventional-changelog"
+            "path": "node_modules/cz-conventional-changelog"
         }
-      },
-      "husky": {
+    },
+    "husky": {
         "hooks": {
-          "pre-commit": "lint-staged",
-          "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+            "pre-commit": "lint-staged",
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
-      }
+    }
 }
