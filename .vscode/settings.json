@@ -1,0 +1,11 @@
+{
+    "prettier.stylelintIntegration": true,
+    "prettier.tabWidth": 4,
+    "prettier.semi": false,
+    "prettier.printWidth": 120,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true
+}
