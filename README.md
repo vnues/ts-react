@@ -27,12 +27,12 @@ npm run dev
 
 -   [x] 支持 typescript 的写法
 -   [x] antd 按需加载功能
--   [ ] git 检测功能
+-   [x] git 检测功能
 -   [x] 热更新功能
 -   [x] less|sass|css 模块化支持
 -   [x] webpack 缓存功能
 -   [ ] mock 数据支持
--   [x] upload 上传到 cdn 功能
+-   [ ] upload 上传到 cdn 功能
 
 ## 目录结构
 
