@@ -50,5 +50,16 @@
     "dependencies": {
         "@types/node": "^11.13.5",
         "antd": "^3.16.3"
-    }
+    },
+    "config": {
+        "commitizen": {
+          "path": "node_modules/cz-conventional-changelog"
+        }
+      },
+      "husky": {
+        "hooks": {
+          "pre-commit": "lint-staged",
+          "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+      }
 }
