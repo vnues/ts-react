@@ -23,7 +23,7 @@
         "install": "^0.12.2",
         "less": "^3.9.0",
         "less-loader": "^4.1.0",
-        "node-sass": "^4.11.0",
+        "node-sass": "^7.0.0",
         "npm": "^6.9.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
